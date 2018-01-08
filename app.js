@@ -18,7 +18,7 @@ $(document).ready(function () {
         let selectedValue = $("#selectYear").val();
         // This will retrieve the user's selection as an integer and save it as the "selectedValue" variable
 
-        let userAge = 2018 - selectedValue;
+        let userAge = year - selectedValue;
         // Calculates the user's age based on the current year
 
         function maxHeartRate() {
