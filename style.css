@@ -1,0 +1,40 @@
+/*body {
+	background-image: url("background.jpg");
+	background-size: cover;
+}*/
+
+body {
+	background-color: rgb(203, 230, 200)
+	margin-top: 50px;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-size: 16px;
+}
+
+#header {
+	margin-top: 60px;
+}
+
+.container {
+	margin-left: 20px;
+}
+
+#buttonGet {
+    color: rgb(0, 0, 0);
+    background-color: rgb(136, 211, 140);
+    font-size: 14px;
+}
+
+#container-left {
+	float: left;
+	margin-right: 20px;
+	margin-left: -32px;
+}
+
+#divResult {
+	margin-left: 20px;
+}
+
+#equation {
+	color: rgb(31, 102, 34);
+}
