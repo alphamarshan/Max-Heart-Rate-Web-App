@@ -22,13 +22,9 @@ $(document).ready(function () {
         // Calculates the user's age based on the current year
 
         function maxHeartRate() {
-            if (userAge >= 18 && userAge <= 82) {
                 let mhr = (Math.round(205.8 - (0.685 * userAge)));
                 $("#divResult").empty();
                 $("#divResult").append("<strong>" + mhr + "</strong>" + ", but potentially as low as " + (mhr - 6) + " and as high as " + (mhr + 6) + ".");
-            } else {
-                return null;
-            }
         }
         // Calculates the user's max heart rate, then uses jQuery to append the "divResult" div with the value returned
 
