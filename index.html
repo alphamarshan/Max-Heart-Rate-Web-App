@@ -11,48 +11,72 @@
 </head>
 
 <body>
-    <div id="header">
-        <h1>Estimated Max Heart Rate Calculator</h1>
-    </div>
+    <div id="headerWrapper">
+        <div id="header">
+            <h1>Estimated Max Heart Rate Calculator</h1>
+        </div>
 
-<div class="container">
+        <div class="container">
 
-     <div id="container-left">
-        <h4>What year were you born?</h4>
-             <form id="yearofBirth">
-                <select id="selectYear">
-                    <option id="optionYear">Choose a year:</option>
-                </select>
-                <input type="button" id="buttonGet" value="Submit" form_id="yearofBirth"></input>
-             </form>
-    </div>
-
-    <div id="container-right">
-        <h4>Your <em>estimated</em> max heart rate is:</h4>
-            <div id="divResult">
+            <div id="container-left">
+                <h4>What year were you born?</h4>
+                <form id="yearofBirth">
+                    <select id="selectYear">
+                        <option id="optionYear">Choose a year:</option>
+                    </select>
+                    <input type="button" id="buttonGet" value="Submit" form_id="yearofBirth"></input>
+                </form>
             </div>
+
+            <div id="container-right">
+                <h4>Your
+                    <em>estimated</em> max heart rate is:</h4>
+                <div id="divResult">
+                </div>
+            </div>
+        </div>
     </div>
-</div>
 
 
     <div id="understandingDiv">
         <h2>Understanding Your Maximum Heart Rate</h2>
 
-        <p>Knowing one's maximum heart rate (HRmax) is pivotal to individuals and athletes who need to optimize their training protocols. In certain phases of training, the athlete needs to be training at the right percentage of their HRmax in order to opimize their training sessions and increase their performance. Likewise, some individuals need to make sure they stay below a certain percentage of their HRmax to avoid unnecessary cardiovascular risks.</p>
+        <p>Knowing one's maximum heart rate (HRmax) is pivotal to individuals and athletes who need to optimize their training
+            protocols. In certain phases of training, the athlete needs to be training at the right percentage of their HRmax
+            in order to opimize their training sessions and increase their performance. Likewise, some individuals need to
+            make sure they stay below a certain percentage of their HRmax to avoid unnecessary cardiovascular risks.</p>
 
-        <p>The best way to do this is to actually measure the individual's HRmax, by finding the point at which the heart rate will plateau even with an increasing work load. However, sometimes being able to measure one's HRmax is not possible due to inaccess to a proper environment, a lack of effective technological equipment, or other reasons. For this reason, it may be appropriate to estimate HRmax using a calculator like the one above.</p>
+        <p>The best way to do this is to actually measure the individual's HRmax, by finding the point at which the heart rate
+            will plateau even with an increasing work load. However, sometimes being able to measure one's HRmax is not possible
+            due to inaccess to a proper environment, a lack of effective technological equipment, or other reasons. For this
+            reason, it may be appropriate to estimate HRmax using a calculator like the one above.</p>
 
-        <p>A commonly cited method of estimating an individual's HRmax is 220 - the individual's age. However, Robergs and Landwehr published a fantastic review of the history of this equation, titled "The Surprising History of the 'HRmax=220-age' Equation" which details the inefficacy and surprisingly unfounded history of the equation, with an error margin of up to 11 beats per minute(bpm). You can find that paper <a href="https://www.asep.org/asep/asep/Robergs2.pdf" target="_blank"><strong>HERE</strong></a>.</p>
+        <p>A commonly cited method of estimating an individual's HRmax is 220 - the individual's age. However, Robergs and Landwehr
+            published a fantastic review of the history of this equation, titled "The Surprising History of the 'HRmax=220-age'
+            Equation" which details the inefficacy and surprisingly unfounded history of the equation, with an error margin
+            of up to 11 beats per minute(bpm). You can find that paper
+            <a href="https://www.asep.org/asep/asep/Robergs2.pdf"
+                target="_blank">
+                <strong>HERE</strong>
+            </a>.</p>
 
-        <p>A review of that paper shows there are a variety of different studies which show methods to estimate HRmax, but the most accurate general equation is from Inbar, et al. which this website uses to estimate HRmax with the following: <span id = "equation"><strong>205.8 - (0.685 * age)</strong></span></p>
+        <p>A review of that paper shows there are a variety of different studies which show methods to estimate HRmax, but the
+            most accurate general equation is from Inbar, et al. which this website uses to estimate HRmax with the following:
+            <span id="equation">
+                <strong>205.8 - (0.685 * age)</strong>
+            </span>
+        </p>
     </div>
 
     <div id="methodologyDiv">
         <h2>Methodology</h2>
 
-        <p>The Inbar equation was found to be most appropriate for apparently healthy men and women between the ages of 20-70. For that reason, the dropdown menu only allows individuals as old as 70 and as young as 20 to find their estimated HRmax. If you are outside this age range, you should find a more appropriate equation from the paper linked above.</p>
+        <p>The Inbar equation was found to be most appropriate for apparently healthy men and women between the ages of 20-70.
+            For that reason, the dropdown menu only allows individuals as old as 70 and as young as 20 to find their estimated
+            HRmax. If you are outside this age range, you should find a more appropriate equation from the paper linked above.</p>
 
-        <p>This method of estimating HRmax can still yield large errors as high as 6.4 bpm in either direction, so keep that in mind when you read your results.</p>
+        <p>This method of estimating HRmax can still yield large errors as high as 6.4 bpm in either direction, so keep that
+            in mind when you read your results.</p>
     </div>
 
     <script type="text/javascript" src="app.js"></script>

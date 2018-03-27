@@ -4,8 +4,10 @@ let year = d.getFullYear();
 
 for (i = (year - 70); i <= (year - 20); i++) {
     yearsArray.push("" + i + "");
+    yearsArray.sort(function(a, b){return b-a});
 }
 // Loops through birth dates from 70 years from this year to 20 years from this year, then pushes the numbers into the yearsArray array.
+// Sorts the array in descending order.
 
 $('#selectYear').empty();
 $.each(yearsArray, function (i, p) {

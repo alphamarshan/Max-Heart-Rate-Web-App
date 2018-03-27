@@ -4,19 +4,39 @@
 }*/
 
 body {
-	background-color: rgb(203, 230, 200)
-	margin-top: 50px;
-	margin-left: 30%;
-	margin-right: 30%;
+	background-color: rgb(249, 255, 248);
 	font-size: 16px;
 }
 
-#header {
+#understandingDiv, #methodologyDiv {
+	margin-top: 30px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+#headerWrapper {
+text-align: center;
+background-color: rgb(32, 51, 70);
+color: white;
 	margin-top: 60px;
+margin-left: 27%;
+margin-right: 27%;
+padding-bottom: 25px;
+border-radius: 10px;
+}
+
+#header {
+	padding-top: 5px;
+}
+
+#yearofBirth {
+	color: black;
 }
 
 .container {
 	margin-left: 20px;
+	padding-top: 50px;
+	padding-bottom: 20px;
 }
 
 #buttonGet {
@@ -28,7 +48,12 @@ body {
 #container-left {
 	float: left;
 	margin-right: 20px;
-	margin-left: -32px;
+	margin-left: 80px;
+}
+
+#container-right {
+	margin-right: 375px;
+	margin-left: 20px;
 }
 
 #divResult {
