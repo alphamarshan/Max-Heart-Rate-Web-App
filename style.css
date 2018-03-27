@@ -18,15 +18,24 @@ body {
 text-align: center;
 background-color: rgb(32, 51, 70);
 color: white;
-	margin-top: 60px;
+margin-top: 60px;
 margin-left: 27%;
 margin-right: 27%;
-padding-bottom: 25px;
+padding-bottom: 15px;
 border-radius: 10px;
 }
 
 #header {
-	padding-top: 5px;
+	padding-top: 20px;
+}
+
+#whiteLine {
+	background-color: white;
+	height: 2px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 40px;
 }
 
 #yearofBirth {
@@ -35,7 +44,7 @@ border-radius: 10px;
 
 .container {
 	margin-left: 20px;
-	padding-top: 50px;
+	padding-top: 25px;
 	padding-bottom: 20px;
 }
 
