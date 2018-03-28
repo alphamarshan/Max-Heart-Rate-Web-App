@@ -4,7 +4,7 @@
 }*/
 
 body {
-	background-color: rgb(249, 255, 248);
+	background-color: rgb(249, 249, 255);
 	font-size: 16px;
 }
 
@@ -61,7 +61,7 @@ border-radius: 10px;
 }
 
 #container-right {
-	margin-right: 375px;
+	margin-right: 42%;
 	margin-left: 20px;
 }
 
